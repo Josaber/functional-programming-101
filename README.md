@@ -19,6 +19,12 @@
   - Currying [Demo](./src/main/kotlin/Currying.kt)
 - [Compose and Pipe](https://en.wikipedia.org/wiki/Function_composition)
     - Compose and Pipe [Demo](./src/main/kotlin/FunctionComposition.kt)
+- [Algebraic Data Type](https://en.wikipedia.org/wiki/Algebraic_data_type)
+  - [Type Theory](https://en.wikipedia.org/wiki/Type_theory)
+  - [Data Type](https://en.wikipedia.org/wiki/Data_type)
+  - [Product Type](https://en.wikipedia.org/wiki/Product_type)
+  - [Pattern Matching]()
+    - Pattern Matching [Demo](./src/main/kotlin/PatternMatching.kt)
 
 [//]: # (https://kotlinlang.org/docs/lambdas.html)
 [//]: # (https://dev.to/joelbonetr/js-functional-concepts-pipe-and-compose-1mho)

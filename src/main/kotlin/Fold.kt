@@ -1,6 +1,6 @@
 fun <T, R> Collection<T>.fold(
     initial: R,
-    combine: (acc: R, nextElement: T) -> R // (R, T) -> R
+    combine: (acc: R, current: T) -> R
 ): R {
     var accumulator: R = initial
     for (element: T in this) {
