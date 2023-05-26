@@ -4,6 +4,20 @@ import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 
 class PatternMatchingTest {
+    @ParameterizedTest
+    @CsvSource(
+        "LEFT, Left",
+        "RIGHT, Right",
+        "UP, Other",
+        "DOWN, Other",
+        "FRONT, Other",
+        "BACK, Other"
+    )
+    fun `should match direction`(direction: Direction, expected: String) {
+        val result = PatternMatching.matchDirection(direction)
+        assertEquals(expected, result)
+    }
+
     @Test
     fun `should return double`() {
         val type = PatternMatching.matchType(1.23)

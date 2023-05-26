@@ -1,5 +1,13 @@
 class PatternMatching {
     companion object {
+        fun matchDirection(direction: Direction): String {
+            return when (direction) {
+                Direction.LEFT -> "Left"
+                Direction.RIGHT -> "Right"
+                else -> "Other"
+            }
+        }
+
         fun matchType(obj: Any): String {
             return when (obj) {
                 is Int -> matchInteger(obj)
