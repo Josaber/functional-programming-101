@@ -3,25 +3,28 @@
 - [Programming Paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
   - [Programming Paradigm Demo](./src/main/kotlin/EvenNumber.kt)
 - [Functional Programming Principles](https://dev.to/jamesrweb/principles-of-functional-programming-4b7c)
-  - Pure Functions
+  - Pure Functions and Referential Transparency
+    - Pure Function [Demo](./src/main/kotlin/PureFunction.kt)
   - No Side Effects
   - Immutability
-  - Referential Transparency
   - [Function as First Class Citizen](https://en.wikipedia.org/wiki/First-class_function)
     - Function Type [Demo](./src/main/kotlin/FunctionType.kt)
     - High Order Function [Demo](./src/main/kotlin/HighOrderFunction.kt)
     - High Order Function Type [Demo](./src/main/kotlin/HighOrderFunctionType.kt)
     - [Fold](https://en.wikipedia.org/wiki/Fold_(higher-order_function))
       - Fold [Demo](./src/main/kotlin/Fold.kt)
+    - [Compose and Pipe](https://en.wikipedia.org/wiki/Function_composition)
+      - Compose and Pipe [Demo](./src/main/kotlin/FunctionComposition.kt)
   - Disciplined State
-  - Type Systems
-- [Currying](https://en.wikipedia.org/wiki/Currying)
-  - Currying [Demo](./src/main/kotlin/Currying.kt)
-- [Compose and Pipe](https://en.wikipedia.org/wiki/Function_composition)
-    - Compose and Pipe [Demo](./src/main/kotlin/FunctionComposition.kt)
-- [Algebraic Data Type](https://en.wikipedia.org/wiki/Algebraic_data_type)
-  - [Pattern Matching](https://en.wikipedia.org/wiki/Pattern_matching)
-    - Pattern Matching [Demo](./src/main/kotlin/PatternMatching.kt)
+    - Type Systems
+  - Currying and Partial Application
+    - [Currying](https://en.wikipedia.org/wiki/Currying)
+      - Currying [Demo](./src/main/kotlin/Currying.kt)
+  - [Algebraic Data Type](https://en.wikipedia.org/wiki/Algebraic_data_type)
+    - [Pattern Matching](https://en.wikipedia.org/wiki/Pattern_matching)
+      - Pattern Matching [Demo](./src/main/kotlin/PatternMatching.kt)
+  - Non-strict Evaluation
+  - Recursion
 
 [//]: # (https://kotlinlang.org/docs/lambdas.html)
 [//]: # (https://dev.to/joelbonetr/js-functional-concepts-pipe-and-compose-1mho)
@@ -29,3 +32,6 @@
 [//]: # (https://en.wikipedia.org/wiki/Product_type)
 [//]: # (https://en.wikipedia.org/wiki/Data_type)
 [//]: # (https://en.wikipedia.org/wiki/Type_theory)
+[//]: # (https://en.wikipedia.org/wiki/Side_effect_&#40;computer_science&#41;)
+[//]: # (https://medium.com/@kumbhar.pradnya/functional-programming-principles-6f59bc6764ff)
+[//]: # (https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/zip.html)
