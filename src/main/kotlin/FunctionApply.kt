@@ -1,4 +1,4 @@
-class Currying {
+class FunctionApply {
     companion object {
         fun <A, B, C> curry(function: (A, B) -> C): (A) -> (B) -> C {
             return fun(a: A): (B) -> C {
@@ -14,6 +14,14 @@ class Currying {
                     return fun(c: C): D {
                         return function(a, b, c)
                     }
+                }
+            }
+        }
+
+        fun <A, B, C, D> partialApply(function: (A, B, C) -> D): (A, B) -> (C) -> D {
+            return fun(a: A, b: B): (C) -> D {
+                return fun(c: C): D {
+                    return function(a, b, c)
                 }
             }
         }

@@ -19,7 +19,8 @@
     - Type Systems
   - Currying and Partial Application
     - [Currying](https://en.wikipedia.org/wiki/Currying)
-      - Currying [Demo](./src/main/kotlin/Currying.kt)
+    - [Partial Application](https://en.wikipedia.org/wiki/Partial_application)
+    - Currying & Partial Application [Demo](./src/main/kotlin/FunctionApply.kt)
   - [Algebraic Data Type](https://en.wikipedia.org/wiki/Algebraic_data_type)
     - [Pattern Matching](https://en.wikipedia.org/wiki/Pattern_matching)
       - Pattern Matching [Demo](./src/main/kotlin/PatternMatching.kt)
@@ -35,3 +36,4 @@
 [//]: # (https://en.wikipedia.org/wiki/Side_effect_&#40;computer_science&#41;)
 [//]: # (https://medium.com/@kumbhar.pradnya/functional-programming-principles-6f59bc6764ff)
 [//]: # (https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/zip.html)
+[//]: # (https://www.freecodecamp.org/news/the-principles-of-functional-programming/)
