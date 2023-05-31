@@ -25,6 +25,7 @@
     - [Pattern Matching](https://en.wikipedia.org/wiki/Pattern_matching)
       - Pattern Matching [Demo](./src/main/kotlin/PatternMatching.kt)
   - Non-strict Evaluation
+  - Lazy Evaluation
   - Recursion
 
 [//]: # (https://kotlinlang.org/docs/lambdas.html)
