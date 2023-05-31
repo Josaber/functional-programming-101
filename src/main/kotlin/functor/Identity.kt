@@ -1,9 +1,13 @@
 package functor
 
-class Identity<T>(private val value: T) : Functor<T> {
+class Identity<T>(private val value: T) : Monad<T> {
 
     override fun <R> map(function: (T) -> R): Functor<R> {
         return Identity(function(value))
+    }
+
+    override fun <R> flatMap(function: (T) -> R): R {
+        return function(value)
     }
 
     override fun equals(other: Any?): Boolean {

@@ -37,3 +37,4 @@
 [//]: # (https://medium.com/@kumbhar.pradnya/functional-programming-principles-6f59bc6764ff)
 [//]: # (https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/zip.html)
 [//]: # (https://www.freecodecamp.org/news/the-principles-of-functional-programming/)
+[//]: # (https://hackernoon.com/9-functional-programming-concepts-everyone-should-know-uy503u21)

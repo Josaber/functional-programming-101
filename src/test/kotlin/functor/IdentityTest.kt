@@ -11,4 +11,12 @@ class IdentityTest {
             .map { x -> x - 5 }
         assertEquals(Identity(-3), result)
     }
+
+    @Test
+    fun `should flat map value when use identity`() {
+        val result = Identity(1)
+            .flatMap { x -> Identity(x * 2) }
+            .flatMap { x -> Identity(x - 5) }
+        assertEquals(Identity(-3), result)
+    }
 }

@@ -1,8 +1,12 @@
 package functor
 
-class Nothing<T>: Functor<T> {
+class Nothing<T>: Monad<T> {
     override fun <R> map(function: (T) -> R): Functor<R> {
         return Nothing()
+    }
+
+    override fun <R> flatMap(function: (T) -> R): R? {
+        return null
     }
 
     override fun equals(other: Any?): Boolean {

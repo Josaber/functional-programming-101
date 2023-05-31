@@ -17,4 +17,10 @@ class MaybeTest {
         val result = Maybe(null).map { x: Int -> x * 2 }
         assertEquals(Nothing<Int>(), result)
     }
+
+    @Test
+    fun `should not flat map value when value is null`() {
+        val result = Maybe(null).flatMap { x: Int -> Maybe(x * 2) }
+        assertEquals(null, result)
+    }
 }

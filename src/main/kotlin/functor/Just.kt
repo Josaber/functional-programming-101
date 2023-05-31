@@ -1,8 +1,12 @@
 package functor
 
-class Just<T>(private val value: T) : Functor<T> {
+class Just<T>(private val value: T) : Monad<T> {
     override fun <R> map(function: (T) -> R): Functor<R> {
         return Just(function(value))
+    }
+
+    override fun <R> flatMap(function: (T) -> R): R {
+        return function(value)
     }
 
     override fun equals(other: Any?): Boolean {
